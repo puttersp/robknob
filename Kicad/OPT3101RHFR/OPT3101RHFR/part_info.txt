@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=OPT3101RHFR
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=29
+Version=1.1
+Released=2021-10-30 11:00:39
+Downloaded=2023-11-23 06:15:08
+3D=Y

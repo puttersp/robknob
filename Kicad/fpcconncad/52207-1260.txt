@@ -1,0 +1,17 @@
+﻿"Symbol";"Value";"Unit";
+"SUPPLIER_NAME";"RS Components";"";
+"TraceParts.PartVersion";"1.0.0";"";
+"SUPPLIER";"Molex";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartNumber";"90-13072022-036415";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"Molex Easy-On 52207 Series 1mm Pitch 12 Way Right Angle SMT Female FPC Connector, ZIF Top Contact";"";
+"TraceParts.InstanceId";"90-13072022-0364156BQSC7ZHPTZ00LAS6COV8833S";"";
+"TraceParts.PartTitle";"10 way r/a top contact FFC ZIF conn,1mm";"";
+"TraceParts.PartStatusId";"";"";
+"REFERENCE";"52207-1260";"";
+"Buy_Now";"https://uk.rs-online.com/web/p/products/6706754P?cm_mmc=en-ds-_-mcad-_-traceparts-_-6706754P";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"Part_Number_EShop_URL";"https://uk.rs-online.com/web/p/products/6706754P?cm_mmc=en-ds-_-mcad-_-traceparts-_-6706754P";"";
+"rs_stock_number";"6706754P";"";
+"TraceParts.ClassPath";"/F_RS_COMPONENTS/PSB_346947/PSSS_435563/PSS_435683/PSF_435692/";"";

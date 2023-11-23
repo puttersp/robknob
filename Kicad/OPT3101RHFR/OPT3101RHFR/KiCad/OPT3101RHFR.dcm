@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OPT3101RHFR
+D ToF-Based Long-Range Proximity and Distance Sensor Analog Front End (AFE)
+K
+F http://www.ti.com/lit/gpn/opt3101
+$ENDCMP
+#
+#End Doc Library

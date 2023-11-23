@@ -1,0 +1,18 @@
+.OPT3101RHFR :1 ;ToF-Based Long-Range Proximity and Distance Sensor Analog Front End (AFE)
+QFN50P400X500X100-29N-D
+*STM IC
+*NGS
+*PLB 1="A1" 2="A2" 3="IOVSS_1" 4="TX2" 5="TX1" 6="VSSL" 7="TX0" 8="IOVSS_2" 9="IOVDD_1" 10="IOVDD_2" 11="GP1" 12="GP2" 13="SCL_S" 14="SDA_S" 15="SCL_M" 16="SDA_M" 17="'RST_MS'" 18="REG_MODE" 19="DVDD" 20="AVDD3" 21="AVDD" 22="NC" 23="AVSS_1" 24="INM" 25="INP" 26="AVSS_2" 27="AVSS_3" 28="A0" 29="EP"
+*MXP 29
+*DFN OPT3101RHFR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (OPT3101RHFR)
+~!Mouser Part Number (595-OPT3101RHFR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPT3101RHFR?qs=gTYE2QTfZfTvqHztJ29%252Bbg%3D%3D)
+~!Arrow Part Number (OPT3101RHFR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/opt3101rhfr/texas-instruments?region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/opt3101)
+~!Height (1mm)
+~!3D_Model (OPT3101RHFR)
+OPT3101RHFR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 

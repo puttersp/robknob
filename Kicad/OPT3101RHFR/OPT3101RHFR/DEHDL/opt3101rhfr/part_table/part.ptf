@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'OPT3101RHFR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "OPT3101RHFR" (!) = "", "QFN50P400X500X100-29N-D", "Quad Flat No-Lead", "595-OPT3101RHFR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPT3101RHFR?qs=gTYE2QTfZfTvqHztJ29%252Bbg%3D%3D", "OPT3101RHFR", "https://www.arrow.com/en/products/opt3101rhfr/texas-instruments?region=nac", "ToF-Based Long-Range Proximity and Distance Sensor Analog Front End (AFE)", "http://www.ti.com/lit/gpn/opt3101", "1 mm"
+END_PART
+
+END.
