@@ -393,7 +393,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../cad/view_base.step",
+      "step": "../../cad/view_base2.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
