@@ -67,4 +67,5 @@
 
  float _sqrtApprox(float value);
 
+ double min(double a, double b);
 #endif /* INC_FOC_UTILS_H_ */

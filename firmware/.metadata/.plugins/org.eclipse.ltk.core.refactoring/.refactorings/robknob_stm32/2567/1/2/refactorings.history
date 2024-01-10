@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;robknob_stm32/Core/Src/foc_utils.h&apos; to &apos;foc_utils.c&apos;" description="Rename resource &apos;foc_utils.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/foc_utils.h" name="foc_utils.c" stamp="1704822228756" updateReferences="true"/>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;robknob_stm32/Core/Src/foc_utils.h&apos; to &apos;foc_utils.c&apos;" description="Rename resource &apos;foc_utils.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/foc_utils.h" name="foc_utils.c" stamp="1704822228756" updateReferences="true"/>&#x0A;&#x0A;<refactoring comment="Rename resource &apos;robknob_stm32/Core/Inc/BLDCDriver.h&apos; to &apos;BLDCDriver.hpp&apos;" description="Rename resource &apos;BLDCDriver.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/BLDCDriver.h" name="BLDCDriver.hpp" stamp="1704857397979" updateReferences="true"/>
 </session>

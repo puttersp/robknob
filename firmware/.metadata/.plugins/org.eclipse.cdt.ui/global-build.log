@@ -1,14 +1,7 @@
-08:16:04 **** Incremental Build of configuration Debug for project robknob_stm32 ****
+10:34:22 **** Incremental Build of configuration Debug for project robknob_stm32_cpp ****
 make -j16 all 
-arm-none-eabi-g++ "../Core/Src/MT6701SSI.cpp" -mcpu=cortex-m4 -std=gnu++14 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/MT6701SSI.d" -MT"Core/Src/MT6701SSI.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/MT6701SSI.o"
-arm-none-eabi-g++ -o "robknob_stm32.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Pasteurized\FIBO Edu\Sem 3.1\EmbeddedSys\ROBKNOBv01\firmware\robknob_stm32\STM32F411CEUX_FLASH.ld" -Wl,-Map="robknob_stm32.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
-Finished building target: robknob_stm32.elf
- 
-arm-none-eabi-size   robknob_stm32.elf 
-arm-none-eabi-objdump -h -S  robknob_stm32.elf  > "robknob_stm32.list"
+arm-none-eabi-size   robknob_stm32_cpp.elf 
    text	   data	    bss	    dec	    hex	filename
-  21676	     20	   2108	  23804	   5cfc	robknob_stm32.elf
+  22840	     20	   2108	  24968	   6188	robknob_stm32_cpp.elf
 Finished building: default.size.stdout
- 
-Finished building: robknob_stm32.list
  

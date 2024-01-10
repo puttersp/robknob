@@ -11,7 +11,7 @@
  #include "time_utils.h"
  #include "foc_utils.h"
 
- class LowPassFilter
+class LowPassFilter
  {
  public:
      LowPassFilter(float Tf);

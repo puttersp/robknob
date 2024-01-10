@@ -1,0 +1,2 @@
+../Core/Src/Sensor.cpp:12:6:virtual int Sensor::needsSearch()	16	static
+../Core/Src/Sensor.cpp:16:8:virtual float Sensor::getVelocity()	32	static

@@ -8,6 +8,9 @@
 // default configuration values
  // change this file to optimal values for your application
 
+#ifndef DEFAULTS_H
+#define DEFAULTS_H
+
  #define DEF_POWER_SUPPLY 5.0
  // velocity PI controller params
  #define DEF_PID_VEL_P 0.5
@@ -42,3 +45,5 @@
  #define DEF_VOLTAGE_SENSOR_ALIGN 3.0
  // low pass filter velocity
  #define DEF_VEL_FILTER_Tf 0.005 //!< default velocity filter time constant
+
+#endif // DEFAULTS_H

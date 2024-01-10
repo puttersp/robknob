@@ -14,7 +14,6 @@ void _delay(unsigned long ms);
 
 
 extern TIM_HandleTypeDef htim2;
-uint64_t upper = 0;
 
 uint64_t _micros();
 

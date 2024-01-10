@@ -8,9 +8,9 @@
 #ifndef INC_BLDCMOTOR_H_
 #define INC_BLDCMOTOR_H_
 
+#include <BLDCDriver.hpp>
 #include "FOCMotor.h"
 #include "Sensor.h"
-#include "BLDCDriver.h"
 #include "foc_utils.h"
 #include "time_utils.h"
 #include "defaults.h"

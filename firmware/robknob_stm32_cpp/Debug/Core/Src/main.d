@@ -1,4 +1,4 @@
-Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
+Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -29,7 +29,13 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+ ../Core/Inc/SimpleFOC_stm32.h ../Core/Inc/BLDCMotor.h \
+ ../Core/Inc/FOCMotor.h ../Core/Inc/Sensor.h ../Core/Inc/time_utils.h \
+ ../Core/Inc/foc_utils.h ../Core/Inc/defaults.h ../Core/Inc/pid.h \
+ ../Core/Inc/lowpass_filter.h ../Core/Inc/BLDCDriver.h \
+ ../Core/Inc/MT6701SSI.h ../Core/Inc/BLDCDriver6PWM.h \
+ ../Core/Inc/hardware_api.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -62,3 +68,16 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
+../Core/Inc/SimpleFOC_stm32.h:
+../Core/Inc/BLDCMotor.h:
+../Core/Inc/FOCMotor.h:
+../Core/Inc/Sensor.h:
+../Core/Inc/time_utils.h:
+../Core/Inc/foc_utils.h:
+../Core/Inc/defaults.h:
+../Core/Inc/pid.h:
+../Core/Inc/lowpass_filter.h:
+../Core/Inc/BLDCDriver.h:
+../Core/Inc/MT6701SSI.h:
+../Core/Inc/BLDCDriver6PWM.h:
+../Core/Inc/hardware_api.h:

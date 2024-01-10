@@ -8,8 +8,8 @@
 #ifndef INC_BLDCDRIVER6PWM_H_
 #define INC_BLDCDRIVER6PWM_H_
 
-#include "BLDCDriver.h"
- #include "foc_utils.h"
+#include <BLDCDriver.hpp>
+#include "foc_utils.h"
  #include "time_utils.h"
  #include "defaults.h"
  #include "hardware_api.h"
