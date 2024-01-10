@@ -1,0 +1,76 @@
+/*
+ * MagneticSensorSPI.h
+ *
+ *  Created on: Jan 10, 2024
+ *      Author: putte
+ */
+
+#ifndef INC_MAGNETICSENSORSPI_H_
+#define INC_MAGNETICSENSORSPI_H_
+
+ #include "Sensor.h"
+ #include "foc_utils.h"
+ #include "time_utils.h"
+
+ #define DEF_ANGLE_REGISTER 0x3FFF
+
+ struct MagneticSensorSPIConfig_s  {
+   int spi_mode;
+   long clock_speed;
+   int bit_resolution;
+   int angle_register;
+   int data_start_bit;
+   int command_rw_bit;
+   int command_parity_bit;
+ };
+ // typical configuration structures
+ extern MagneticSensorSPIConfig_s AS5147_SPI,AS5048_SPI,AS5047_SPI, MA730_SPI;
+
+ class MagneticSensorSPI: public Sensor{
+  public:
+     MagneticSensorSPI(int cs, float bit_resolution, int angle_register = 0);
+     MagneticSensorSPI(MagneticSensorSPIConfig_s config, int cs);
+
+     void init(SPIClass* _spi = &SPI);
+
+     // implementation of abstract functions of the Sensor class
+     float getAngle() override;
+     float getVelocity() override;
+
+     // returns the spi mode (phase/polarity of read/writes) i.e one of SPI_MODE0 | SPI_MODE1 | SPI_MODE2 | SPI_MODE3
+     int spi_mode;
+
+     /* returns the speed of the SPI clock signal */
+     long clock_speed;
+
+
+   private:
+     float cpr;
+     // spi variables
+     int angle_register;
+     int chip_select_pin;
+    SPISettings settings;
+     // spi functions
+     void close();
+     word read(word angle_register);
+     byte spiCalcEvenParity(word value);
+
+     int getRawCount();
+
+     // total angle tracking variables
+     float full_rotation_offset;
+     float angle_data_prev;
+
+     // velocity calculation variables
+     float angle_prev;
+     long velocity_calc_timestamp;
+
+     int bit_resolution;
+     int command_parity_bit;
+     int command_rw_bit;
+     int data_start_bit;
+
+     SPIClass* spi;
+ };
+
+#endif /* INC_MAGNETICSENSORSPI_H_ */

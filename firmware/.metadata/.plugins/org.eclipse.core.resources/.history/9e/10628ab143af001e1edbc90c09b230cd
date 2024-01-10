@@ -1,0 +1,13 @@
+/*
+ * MagneticSensorSPI.h
+ *
+ *  Created on: Jan 10, 2024
+ *      Author: putte
+ */
+
+#ifndef INC_MAGNETICSENSORSPI_H_
+#define INC_MAGNETICSENSORSPI_H_
+
+
+
+#endif /* INC_MAGNETICSENSORSPI_H_ */

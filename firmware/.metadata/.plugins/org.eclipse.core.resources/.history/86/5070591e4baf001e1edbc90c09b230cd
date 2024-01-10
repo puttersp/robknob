@@ -1,0 +1,15 @@
+/*
+ * MT6701SSI.h
+ *
+ *  Created on: Jan 10, 2024
+ *      Author: putte
+ */
+
+#ifndef INC_MT6701SSI_H_
+#define INC_MT6701SSI_H_
+
+#include "Sensor.h"
+
+#define MT6701_DATA_POS 2
+
+#endif /* INC_MT6701SSI_H_ */

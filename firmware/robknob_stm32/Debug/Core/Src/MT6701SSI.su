@@ -1,0 +1,9 @@
+../Core/Inc/Sensor.h:22:8:constexpr Sensor::Sensor()	16	static
+../Core/Src/MT6701SSI.cpp:10:1:MagneticSensorMT6701SSI::MagneticSensorMT6701SSI()	16	static
+../Core/Src/MT6701SSI.cpp:15:1:MagneticSensorMT6701SSI::~MagneticSensorMT6701SSI()	16	static
+../Core/Src/MT6701SSI.cpp:15:1:virtual MagneticSensorMT6701SSI::~MagneticSensorMT6701SSI()	16	static
+../Core/Src/MT6701SSI.cpp:19:6:virtual void MagneticSensorMT6701SSI::init()	16	static
+../Core/Src/MT6701SSI.cpp:31:7:virtual float MagneticSensorMT6701SSI::getAngle()	24	static
+../Core/Src/MT6701SSI.cpp:38:7:virtual float MagneticSensorMT6701SSI::getVelocity()	48	static
+../Core/Src/MT6701SSI.cpp:56:10:uint16_t MagneticSensorMT6701SSI::readRawAngleSSI()	32	static
+../Core/Src/MT6701SSI.cpp:66:6:void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef*)	16	static

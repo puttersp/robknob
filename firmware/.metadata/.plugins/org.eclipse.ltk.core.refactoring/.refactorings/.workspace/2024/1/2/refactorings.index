@@ -1,0 +1,6 @@
+1704825854245	Delete resource 'robknob_stm32_cpp'
+1704843199343	Delete resource 'robknob_stm32/Core/Inc/MagneticSensorSPI.h'
+1704843204060	Delete resource 'robknob_stm32/Core/Src/MagneticSensorSPI.cpp'
+1704849483272	Delete resource 'robknob_stm32/Core/Src/main2.c'
+1704849509961	Delete resource 'robknob_stm32/Core/Src/main2.cpp'
+1704849605346	Delete resource 'robknob_stm32/Core/Inc/SimpleFOC_stm32'

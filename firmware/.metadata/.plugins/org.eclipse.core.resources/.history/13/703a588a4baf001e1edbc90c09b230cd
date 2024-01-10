@@ -1,0 +1,50 @@
+/*
+ * MT6701SSI.cpp
+ *
+ *  Created on: Jan 10, 2024
+ *      Author: putte
+ */
+
+#include "MT6701SSI.h"
+
+MagneticSensorMT6701SSI::MagneticSensorMT6701SSI(int nCS, SPISettings settings) : settings(settings), nCS(nCS) {
+
+}
+
+
+MagneticSensorMT6701SSI::~MagneticSensorMT6701SSI() {
+
+}
+
+void MagneticSensorMT6701SSI::init() {
+	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_15, 0);
+	HAL_Delay(1);
+	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_15, 1);
+	HAL_Delay(1);
+
+    this->Sensor::init();
+}
+
+// check 40us delay between each read?
+float MagneticSensorMT6701SSI::getAngle() {
+    float angle_data = readRawAngleSSI();
+    angle_data = ( angle_data / (float)MT6701_CPR ) * _2PI;
+    // return the shaft angle
+    return angle_data;
+}
+
+
+uint16_t MagneticSensorMT6701SSI::readRawAngleSSI() {
+    if (nCS >= 0)
+        digitalWrite(nCS, LOW);
+    spi->beginTransaction(settings);
+    uint16_t value = spi->transfer16(0x0000);
+    spi->endTransaction();
+    if (nCS >= 0)
+        digitalWrite(nCS, HIGH);
+    return (value>>MT6701_DATA_POS)&0x3FFF;
+    if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_15)){
+    	HAL
+    }
+
+};
